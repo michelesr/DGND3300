@@ -1,0 +1,10 @@
+#! /bin/sh
+
+USR='user'
+PWD='pwd'
+
+curl "http://$USR:$PWD@www.routerlogin.net/setup.cgi" -d "todo=disconnect" 
+curl "http://$USR:$PWD@www.routerlogin.net/setup.cgi" -d "todo=connect"
+
+
+

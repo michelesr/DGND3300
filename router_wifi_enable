@@ -1,0 +1,6 @@
+#! /bin/sh
+
+USER='user'
+PWD='pwd'
+
+curl -u "$USER:$PWD" "http://www.routerlogin.net/setup.cgi" -A "Mozilla/5.0" -e "http://$IP/setup.cgi?next_file=adv_wire_setting.htm&todo=cfg_init" -d 'enable_ap=enable_ap&ssid_bc=ssid_bc&frag_thre=2346&rts_thre=2347&enable_shortpreamble=1&save=Applica&h_enable_ap=enable&h_ssid_bc=enable&h_enable_shortpreamble=1&h_router_pin=disable&h_keep_wifi=enable&h_wl0_type=3&h_wl0_on=0&h_turnoff=disable&h_idx_num=1&save_only=0&todo=save&this_file=adv_wire_setting.htm&next_file=adv_wire_setting.htm'

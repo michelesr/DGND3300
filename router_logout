@@ -1,0 +1,4 @@
+#! /bin/sh
+USR='user'
+PWD='pwd'
+curl -u "$USR:$PWD" "www.routerlogin.net?todo=logout"
